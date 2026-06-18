@@ -14,9 +14,9 @@ This project automates user and security group management in Microsoft Entra ID 
 
 The workflow is: token authentication -> reading csv input -> user creation -> security group creation -> user group assignment
 
-User Input in CSV
+User Input in CSV (including DisplayName, mailNickname, UserPrincipalName, Department, JobTitle)
         →
-Automation Script
+Automation Script (see attached)
         →
 Microsoft Graph API
         → Create Users:  POST /v1.0/users                        
