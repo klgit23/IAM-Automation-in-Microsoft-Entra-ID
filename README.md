@@ -26,6 +26,26 @@ Microsoft Graph API
 
 ```
 
+## Automation script part1
+<img width="955" height="821" alt="image" src="https://github.com/user-attachments/assets/ab654c4b-20a2-48b0-b97f-cc38e9633ba2" />
+
+## Automation script part2
+<img width="1182" height="660" alt="image" src="https://github.com/user-attachments/assets/77487113-30fe-49c0-84dd-aaa60d818923" />
+
+## Automation script part3
+<img width="1182" height="857" alt="image" src="https://github.com/user-attachments/assets/c2c66cda-d396-4b3b-b06f-d4cd1aae4e07" />
+
+## Automation script part4
+<img width="1182" height="302" alt="image" src="https://github.com/user-attachments/assets/b4d4d119-7587-4e93-82d0-0bbf01d435bf" />
+
+## Automation script part5
+<img width="1182" height="836" alt="image" src="https://github.com/user-attachments/assets/e8fc7c2c-2337-49d1-98de-57c633d33879" />
+
+## Automation script part6
+<img width="1182" height="841" alt="image" src="https://github.com/user-attachments/assets/a156ae7c-c170-4ef4-950b-f6cc6c775f07" />
+
+## Automation script part7
+<img width="1182" height="516" alt="image" src="https://github.com/user-attachments/assets/de540158-2566-4f51-b977-9e3a2b1eb36a" />
 
 
  ## 🧠 Skills Demonstrated
