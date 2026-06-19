@@ -139,7 +139,7 @@ Microsoft Graph API
         return map;
     }
 
-## Automation script part4--provision users
+## Automation script part4--Provision users
 
     // ---------------------------------------------------------
     // PROVISION USERS
@@ -178,7 +178,7 @@ Microsoft Graph API
         return (String) json.get("id");
     }
 
-## Automation script part5--provision groups
+## Automation script part5--Provision groups
 
     // ---------------------------------------------------------
     // PROVISION GROUPS
