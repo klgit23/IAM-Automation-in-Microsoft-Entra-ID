@@ -29,18 +29,6 @@ Microsoft Graph API
 ## Automation script part1
 <img width="955" height="821" alt="image" src="https://github.com/user-attachments/assets/ab654c4b-20a2-48b0-b97f-cc38e9633ba2" />
 
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.opencsv.CSVReader;
-import okhttp3.*;
-
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.*;
-
-public class AutoProvision {
-    
     private static final OkHttpClient client = new OkHttpClient();
     private static final ObjectMapper mapper = new ObjectMapper();
 
@@ -65,6 +53,7 @@ public class AutoProvision {
         authenticate();
         processCsv();
     }
+
 
 ## Automation script part2
 <img width="1182" height="660" alt="image" src="https://github.com/user-attachments/assets/77487113-30fe-49c0-84dd-aaa60d818923" />
