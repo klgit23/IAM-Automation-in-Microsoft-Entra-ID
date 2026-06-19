@@ -58,6 +58,36 @@ Microsoft Graph API
 ## Automation script part2
 <img width="1182" height="660" alt="image" src="https://github.com/user-attachments/assets/77487113-30fe-49c0-84dd-aaa60d818923" />
 
+    // ---------------------------------------------------------
+    // AUTHENTICATION
+    // ---------------------------------------------------------
+    private static void authenticate() throws IOException {
+        System.out.println("Authentication");
+
+        RequestBody formBody = new FormBody.Builder()
+                .add("grant_type", "client_credentials")
+                .add("scope", "https://graph.microsoft.com/.default")
+                .add("client_id", clientId)
+                .add("client_secret", clientSecret)
+                .build();
+
+        Request request = new Request.Builder()
+                .url("https://login.microsoftonline.com/" + tenantId + "/oauth2/v2.0/token")
+                .post(formBody)
+                .build();
+
+        Response response = client.newCall(request).execute();
+        if (!response.isSuccessful()) {
+            throw new RuntimeException("Authentication failed: " + response.message());
+        }
+
+        Map<String, Object> json = mapper.readValue(response.body().string(), Map.class);
+        accessToken = (String) json.get("access_token");
+
+        System.out.println("Token retrieved");
+    }
+
+
 ## Automation script part3
 <img width="1182" height="857" alt="image" src="https://github.com/user-attachments/assets/c2c66cda-d396-4b3b-b06f-d4cd1aae4e07" />
 
